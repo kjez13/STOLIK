@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<MDG.Technology version="1.0"><Documentation id="1" name="Jezyk-dziedzinowy-PW-CRC" version="1" notes="MGD v3"/><UMLProfiles><UMLProfile profiletype="uml2">
+			<Documentation id="98FB80F8-9" name="PW-CRC-JEZ" version="1.0" notes="Profil CRC"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Karta CRC" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Odpowiedzialno&#347;&#263;" notes="" cx="100" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Komunikat" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles><DiagramProfile><UMLProfile profiletype="uml2">
+			<Documentation id="12D696FA-6" name="PW-CRC-JEZ" version="1.0" alias="PW-CRC-JEZ" notes="PW-CRC-JEZ"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Struktura dziedziny" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Logical"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Sesja CRC" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Sequence"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+			<Documentation id="EF4F684A-E" name="PW-CRC-JEZ" version="1.0" notes="PW-CRC-JEZ"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Struktura" notes="" cx="310" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-JEZ::Karta CRC(UML::Class)" type="" description="" unit="" values="" default="Karta CRC"/>
+							<Tag name="PW-CRC-JEZ::Odpowiedzialno&#347;&#263;(UML::Operation)" type="" description="" unit="" values="" default="Odpowiedzialno&#347;&#263; Karty CRC"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Komunikat" notes="" cx="247" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-JEZ::Komunikat(UML::Operation)" type="" description="" unit="" values="" default="Komunikat"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes></MDG.Technology>

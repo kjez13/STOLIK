@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="EF4F684A-E" name="PW-CRC-JEZ" version="1.0" notes="PW-CRC-JEZ"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Struktura" notes="" cx="310" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="PW-CRC-JEZ::Karta CRC(UML::Class)" type="" description="" unit="" values="" default="Karta CRC"/>
+					<Tag name="PW-CRC-JEZ::Odpowiedzialno&#347;&#263;(UML::Operation)" type="" description="" unit="" values="" default="Odpowiedzialno&#347;&#263; Karty CRC"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Komunikat" notes="" cx="247" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="PW-CRC-JEZ::Komunikat(UML::Operation)" type="" description="" unit="" values="" default="Komunikat"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
