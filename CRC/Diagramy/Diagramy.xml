@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="12D696FA-6" name="PW-CRC-JEZ" version="1.0" alias="PW-CRC-JEZ" notes="PW-CRC-JEZ"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Struktura dziedziny" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Sesja CRC" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Sequence"/>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
